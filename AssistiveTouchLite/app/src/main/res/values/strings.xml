@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Assistive Touch Lite</string>
+    <string name="accessibility_service_description">Lets the floating button open the phone\'s power menu (shutdown, restart) since Android does not allow apps to do this directly without accessibility access. This service does not read or collect any screen content.</string>
+</resources>
