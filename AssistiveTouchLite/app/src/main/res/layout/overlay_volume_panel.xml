@@ -20,35 +20,38 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <ImageButton
             android:id="@+id/btnVolDown"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="4dp"
             android:background="@drawable/circle_bg"
-            android:textColor="#FFFFFF"
-            android:text="−"
-            android:textSize="20sp" />
+            android:src="@drawable/ic_minus"
+            android:scaleType="centerInside"
+            android:padding="12dp"
+            android:contentDescription="Media volume down" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnMute"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="4dp"
             android:background="@drawable/circle_bg"
-            android:textColor="#FFFFFF"
-            android:text="🔇"
-            android:textSize="16sp" />
+            android:src="@drawable/ic_mute"
+            android:scaleType="centerInside"
+            android:padding="12dp"
+            android:contentDescription="Mute media" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnVolUp"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="4dp"
             android:background="@drawable/circle_bg"
-            android:textColor="#FFFFFF"
-            android:text="+"
-            android:textSize="20sp" />
+            android:src="@drawable/ic_plus"
+            android:scaleType="centerInside"
+            android:padding="12dp"
+            android:contentDescription="Media volume up" />
     </LinearLayout>
 
     <TextView
@@ -64,25 +67,27 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <ImageButton
             android:id="@+id/btnRingDown"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="4dp"
             android:background="@drawable/circle_bg"
-            android:textColor="#FFFFFF"
-            android:text="−"
-            android:textSize="20sp" />
+            android:src="@drawable/ic_minus"
+            android:scaleType="centerInside"
+            android:padding="12dp"
+            android:contentDescription="Ringer volume down" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnRingUp"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="4dp"
             android:background="@drawable/circle_bg"
-            android:textColor="#FFFFFF"
-            android:text="+"
-            android:textSize="20sp" />
+            android:src="@drawable/ic_plus"
+            android:scaleType="centerInside"
+            android:padding="12dp"
+            android:contentDescription="Ringer volume up" />
     </LinearLayout>
 
 </LinearLayout>

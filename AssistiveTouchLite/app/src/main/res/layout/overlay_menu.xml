@@ -7,24 +7,26 @@
     android:padding="8dp"
     android:elevation="8dp">
 
-    <Button
+    <ImageButton
         android:id="@+id/btnPower"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:layout_margin="4dp"
         android:background="@drawable/circle_bg"
-        android:textColor="#FFFFFF"
-        android:text="⏻"
-        android:textSize="20sp" />
+        android:src="@drawable/ic_power"
+        android:scaleType="centerInside"
+        android:padding="14dp"
+        android:contentDescription="Power menu" />
 
-    <Button
+    <ImageButton
         android:id="@+id/btnVolume"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:layout_margin="4dp"
         android:background="@drawable/circle_bg"
-        android:textColor="#FFFFFF"
-        android:text="🔊"
-        android:textSize="20sp" />
+        android:src="@drawable/ic_volume"
+        android:scaleType="centerInside"
+        android:padding="14dp"
+        android:contentDescription="Volume controls" />
 
 </LinearLayout>

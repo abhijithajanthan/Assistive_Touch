@@ -9,6 +9,11 @@ to reveal two options:
 
 It's built to work around broken physical buttons.
 
+The button auto-dims and slides to the nearest screen edge (mostly
+off-screen, like Facebook's chat heads) after 3 seconds of no use. Tap the
+sliver that's still visible once to bring it back fully, tap again to open
+the menu. Drag it anywhere any time.
+
 ## Important things to know before you build
 
 - **Android can't let a normal app silently reboot/shutdown the phone.**
@@ -77,6 +82,19 @@ This needs slightly more technical comfort:
 
 Android Studio is genuinely the easier route — it handles steps 1–4 for
 you automatically.
+
+## "Blocked by Play Protect" warning
+
+This is expected for any APK installed outside the Play Store — it's not
+specific to this app. Two real options:
+
+- **Google Play Internal App Sharing** (recommended if you want zero
+  scary warnings without disabling anything): requires a one-time $25
+  Google Play Developer account. Upload the APK there, install via the
+  private link it gives you — Play Protect trusts that path.
+- **Temporarily toggle off "Scan apps with Play Protect"** in
+  Settings → Security → Google Play Protect, install, then turn it back
+  on. Free and immediate.
 
 ## Notes / limitations
 

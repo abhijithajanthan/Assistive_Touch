@@ -3,13 +3,14 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-    <Button
+    <ImageButton
         android:id="@+id/bubbleButton"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/circle_bg_accent"
-        android:text="⏻"
-        android:textColor="#FFFFFF"
-        android:textSize="22sp"
-        android:elevation="8dp" />
+        android:src="@drawable/ic_power"
+        android:scaleType="centerInside"
+        android:padding="16dp"
+        android:elevation="8dp"
+        android:contentDescription="Assistive touch button" />
 </FrameLayout>

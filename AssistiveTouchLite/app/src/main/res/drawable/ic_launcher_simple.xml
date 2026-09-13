@@ -7,12 +7,6 @@
         android:fillColor="#1976D2"
         android:pathData="M54,4 A50,50 0 1 1 53.99,4 Z" />
     <path
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="7"
-        android:pathData="M54,28 L54,54" />
-    <path
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="7"
-        android:pathData="M38,38 A24,24 0 1 0 70,38"
-        android:fillColor="#00000000" />
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,30 h-8 v34 h8 V30 z M75.5,36.7 l-5.6,5.7 C73.9,46.4 76,51.4 76,57 c0,12.2 -9.9,22 -22,22 s-22,-9.8 -22,-22 c0,-5.6 2.1,-10.6 5.6,-14.5 l-5.6,-5.7 C25.9,42.5 22,49.3 22,57 c0,17.7 14.3,32 32,32 s32,-14.3 32,-32 C86,49.3 82.1,42.5 75.5,36.7 z" />
 </vector>
